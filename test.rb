@@ -1,6 +1,3 @@
-require 'rspec'
-require 'sinatra'
-
 puts "Enter a word, any word:"
 word = gets.chomp
 def anagram(word)
