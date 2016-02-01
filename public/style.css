@@ -1,0 +1,16 @@
+body {
+  background:#f8f8f8;
+  background-image:url('images/tiles-01.png');
+  font-family: 'montserrat', arial;
+  color: #11955a;
+}
+
+.btn {
+  color:#11955;
+}
+
+.list {
+  color: red;
+  font-size: 24px;
+  text-decoration: underline;
+}

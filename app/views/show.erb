@@ -1,8 +1,8 @@
-<h1>Anagrams for <%= "#{@word}" %></h1>
+<h1>Anagrams For The Word <em> <%= "#{@word}" %></em></h1>
 <h3>Your word has <%= "#{@length}" %> characters.</h3>
 <h3>There are <%= "#{@perms}" %> permutations for your chosen word.</h3>
 <ul>
   <% @anagram_results.each do |x| %>
-    <li><%= x %></li>
+    <li class="list"><%= x %></li>
   <% end %>
 </ul>
