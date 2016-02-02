@@ -15,5 +15,7 @@ get '/anagrams/:word' do
   @length = @word.length
   @perms = (1..@word.length).inject(:*)
   @anagram_results = Word.anagram_generator(@word)
+  @list = Word.anagram_generator(@word)
+  #@list = Word.where("text in (?)", @anagram_results)
   erb :show
 end
