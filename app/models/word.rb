@@ -11,7 +11,7 @@ class Word < ActiveRecord::Base
       if Word.find_by_text(anagram).present?
         @list << anagram
       end
-  end
-  @list
+    end
+    @list
 end
 end

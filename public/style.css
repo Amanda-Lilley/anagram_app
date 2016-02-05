@@ -5,19 +5,39 @@ body {
   color: #11955a;
 }
 
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.words {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   font-weight: bold;
   font-size: 38px;
 
 }
 
+.two {
+  padding-left: auto;
+  padding-right: auto;
+}
 .btn-lg {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #a1999a;
   color: #11955a;
   margin-top: 25px;
   height: 50px;
-  width: 400px;
+  width: 250px;
 }
+
+
 
 .list {
   color: red;
